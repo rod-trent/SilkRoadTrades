@@ -70,7 +70,7 @@ SilkRoadTrades
 Expected output: 50 records.
 
 ## Running the KQL Queries
-The [blog post](`https://rodtrent.substack.com/p/kql-time-machine-querying-historical`) includes three KQL queries to analyze the dataset. Run them in the Azure Data Explorer web UI:
+The [blog post](https://rodtrent.substack.com/p/kql-time-machine-querying-historical) includes three KQL queries to analyze the dataset. Run them in the Azure Data Explorer web UI:
 
 ### Query 1: Total Volume by Spice Type
 Summarizes the total trade volume for each spice.
