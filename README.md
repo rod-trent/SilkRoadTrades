@@ -1,6 +1,6 @@
 # KQL Time Machine: Silk Road Trade Analysis
 
-This repository contains a sample dataset and KQL (Kusto Query Language) queries for the blog post ["KQL Time Machine: Querying Historical Events to Learn Data Analysis"](blog_post.md). The dataset represents spice trade records from the Silk Road (700–800 CE) and is used to demonstrate KQL operators like `summarize`, `timechart`, and `pivot`.
+This repository contains a sample dataset and KQL (Kusto Query Language) queries for the blog post ["KQL Time Machine: Querying Historical Events to Learn Data Analysis"](https://rodtrent.substack.com/p/kql-time-machine-querying-historical). The dataset represents spice trade records from the Silk Road (700–800 CE) and is used to demonstrate KQL operators like `summarize`, `timechart`, and `pivot`.
 
 ## Repository Contents
 - `SilkRoadTrades.csv`: A CSV file with 50 trade records, including columns `TradeDate`, `SpiceType`, `Volume`, `Origin`, and `Destination`.
@@ -70,7 +70,7 @@ SilkRoadTrades
 Expected output: 50 records.
 
 ## Running the KQL Queries
-The blog post (`blog_post.md`) includes three KQL queries to analyze the dataset. Run them in the Azure Data Explorer web UI:
+The blog post (`https://rodtrent.substack.com/p/kql-time-machine-querying-historical`) includes three KQL queries to analyze the dataset. Run them in the Azure Data Explorer web UI:
 
 ### Query 1: Total Volume by Spice Type
 Summarizes the total trade volume for each spice.
